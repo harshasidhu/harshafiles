@@ -1,0 +1,23 @@
+#outer a{
+    background-color: rgb(42, 180, 180)
+}
+a{
+    display:inline-block;
+    line-height:40px;
+    font-size:20px;
+    text-decoration:none;
+    text-align:center;
+    width:200px;
+    padding:10px;
+    margin:30px;
+
+}
+ul{
+    background-color: blueviolet;
+    width:400px;
+    padding:40px;  
+}
+#outer a :hover{
+    background-color: brown;
+
+}

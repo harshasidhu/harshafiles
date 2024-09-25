@@ -1,0 +1,27 @@
+table{
+    width: 200px;
+    text-align:center;
+    border:1px solid black;
+    background-color: aqua;
+}
+td{
+    padding:20px;
+}
+table,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+#first:hover{
+    background-color: red;
+}
+#second:hover{
+    background-color: green;
+}
+#third:hover{
+    background-color: blue;
+}
+#first td:first-child:hover{
+    color: aliceblue;
+    font: size 20px;
+
+}

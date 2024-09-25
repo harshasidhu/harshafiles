@@ -1,0 +1,9 @@
+/*1.specificity:1-0-1*/
+#outer a{
+
+    background-color: crimson;
+}
+/*2.specificity:2-0-1*/
+#outer #inner a{
+    background-color: darkcyan;
+}
